@@ -6,6 +6,8 @@ The original version $\verb|(see_polarization.py)|$ has the "full functionality,
 
 Volume 2 is reduced rather significantly, most importantly by removing the GUI components, and as such removing any dependency on the dearpygui package, which is far and away the least common. Anyone running this, i.e. Zach and maybe Dr. Young, will have numpy and matplotlib installed already. The downside is that the values of E_x, E_y, phi_x, and phi_y must be changed manually in the code, without a cool GUI. I could have the input be done through the console, but that's ultimately not much prettier than just doing in the .py file itself.
 
+The 3D notebook version creates a 3D graph, rather than an animation. This evolved out of the desire to include the figures in my lab report, since GIFs are difficult to get to "play nice" with LaTeX. There is a .py version in the works.
+
 Beware that most online Python compilers don't have $\verb|matplotlib.animate|$, even if they do have $\verb|matplotlib.pyplot|$. As such, they will show a blank plot, since they don't have the necessary library to deal with the animation. This has been considered, but ultimately I feel the animation is so crucial to this program having any merit that it couldn't be left out or replaced with a static image. Unfortunately, this means you'll have to download the code (or copy it) into your own IDE, or a compiler of your choice.
 
 
