@@ -17,7 +17,7 @@ y_mag = B   # not the actual number of the magnitudes of electric field, E_eff d
 wavelength = 520e-9
 k = 2*np.pi/wavelength
 
-# Linspace, designed such that kz_min = 0  and kz_max = n*pi... see markdown below for explanation
+# Linspace, designed such that kz_min = 0  and kz_max = n*pi... see markdown in see_polarization_3D.ipynb for explanation
 n = 3
 z_max = n*wavelength
 
