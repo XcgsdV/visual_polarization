@@ -1,6 +1,6 @@
 # visual_polarization
 
-This is a little script I wrote up to help visualize how the electric field vector changes as a function of z (position in the direction of propagation, i.e. where you are on the wave) for different kinds of polarization.
+This is a collection of little scripts I wrote up (all essentially different versions of representing the same math) to help visualize how the electric field vector changes as a function of z (position in the direction of propagation, i.e. where you are on the wave) for different kinds of polarization.
 
 The original version $\verb|(see_polarization.py)|$ has the "full functionality," including a GUI and user input. I do not know how to make a standalone executable (I tried, but it ended up giving me ~1 GB of dependencies that needed to be distributed alongside the .exe, which feels like it defeats the point). The downside is that it requires the user to have Python installed on their machine, as well as 3 libraries (numpy, matplotlib, and dearpygui). pip makes this easy to do, but I wish that burden didn't fall on the user.
 
