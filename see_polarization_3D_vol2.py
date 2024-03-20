@@ -152,8 +152,8 @@ ax2d.set_frame_on(False)
 plt.gca().xaxis.set_ticks([])
 plt.gca().yaxis.set_ticks([])
 
-plt.axhline(0, color='black', linewidth=.5)
-plt.axvline(0, color='black', linewidth=.5)
+plt.axhline(0, color='black', linewidth=2)
+plt.axvline(0, color='black', linewidth=2)
 
 # Save 2D plot
 plt.savefig("2D_pol_proj.png", bbox_inches='tight', pad_inches=0.01,dpi=600)
